@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container >
     <v-flex xs12 sm10 styel>
       <h2>WHAT EVERY DEMOCRAT SHOULD BE DEMANDING IN THE 2023 GENERAL ELECTIONS.</h2>
       <p>For the 2023 elections, it is my rights, it is your rights, it is our rights to demand the following;</p>
@@ -29,29 +29,24 @@
       </p>
     </v-flex>
     
-    <v-flex xs12 sm10>
-      <v-card>
-      <div class="float-left">
+    <v-flex xs7 ml-15>
+      <div>
+        <div class="text-h6 float-left">
+        The autograph of the founder/national chairman
+        Once he gets to the words.</div>
+        <div class="text-h5 float-right">"For these and many other qualities which time and space will not permit us to fully articulate, the YDM settled for Atiku Abubakar".</div>
+      </div>
+      <div style="clear: both" class="d-flex justify-center">
         <v-avatar
-          size="250"
-          left
+          size="200"
+          centered
         >
         <v-img 
         src="../assets/leader.jpg" width="300px" height="300px" 
         ></v-img>
         </v-avatar>
       </div>
-      <div>
-          <p class="text-h6 space">Bashir Alaaya - The founder / National Chairman</p>
-      </div>
-      </v-card>
-      <v-card>
-      <div style="clear: both; margin: 9px 80px 10px 80px">
-        The autograph of the founder/national chairman
-        Once he gets to the words.
-        <span class="text-7">"For these and many other qualities which time and space will not permit us to fully articulate, the YDM settled for Atiku Abubakar".</span>
-      </div>
-      </v-card>
+      <p class="d-flex justify-center text-h6 mb-15">Bashir Alaaya - The founder / National Chairman</p>
     </v-flex>
   </v-container>
 </template>
@@ -65,7 +60,7 @@ export default {
 <style scoped>
   .space {
     position: absolute;
-    margin: 150px 0px 50px 250px;
+    margin: 200px 0px 50px 250px;
   }
 
   .styel {

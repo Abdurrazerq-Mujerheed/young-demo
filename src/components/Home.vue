@@ -110,7 +110,7 @@
           <v-flex xs12 sm5 class="mr-1">
             <v-card>
               <v-img
-                src="../assets/photo_2.jpg"
+                src="../assets/photo_1.jpg"
                 pa-3
               ></v-img>              
             </v-card>
